@@ -1,0 +1,26 @@
+/* Fonts */
+
+/* Components */
+@import url("/css/components/buttons.css");
+@import url("/css/components/footer.css");
+@import url("/css/components/navbar.css");
+
+/* Pages */
+@import url("pages/contact.css");
+
+/* Utilities */
+body {
+    background: white;
+}
+
+h1, h2, h3, h4 {
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* .contact-container {
+    background: rgb(126, 218, 7);
+} */
