@@ -1,24 +1,32 @@
+/* Contact */
+
+/* headings */
+.section-title {
+    text-align: center;
+    margin: 50px 25px 30px 25px;
+}
+
 /* CSS for Contact.html */
 
 .contact-container {
-    background-color: #FAFAFA;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
     margin: 0 80 0 80;
-    padding: 50 110 50 110
+    padding: 50 110 50 110;
+    background-color: #FAFAFA;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .form-section-container {
     display: flex;
-    flex-direction: column;
     align-items: center;
+    flex-direction: column;
     justify-content: center;
 }
 
 .contact-information-container {
     display: flex;
-    flex-direction: column;
     align-items: center;
+    flex-direction: column;
     justify-content: center;
 }
 

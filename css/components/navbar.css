@@ -4,10 +4,13 @@
 
 .navbar {
     display: flex;
+    padding-top: 30px;
+    align-items: center;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
-
+    /* position: -webkit-sticky; Safari */
+    /* position: sticky;
+    top: 0px; */
 }
 
 .navbar-btns-container {
@@ -16,24 +19,24 @@
 }
 
 a.nav-bar-link {
-    position: relative;
     color: white;
-    margin: 0 12.5px 0 12.5px;
     border: #000;
+    position: relative;
     text-decoration: none;
+    margin: 0 12.5px 0 12.5px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, .25);
 }
 
 a.nav-bar-link:before {
+    left: 0;
     content: "";
-    position: absolute;
     width: 100%;
     height: 2px;
     bottom: -5px;
-    left: 0;
-    background-color: #FEE042;
     visibility: hidden;
+    position: absolute;
     transform: scaleX(0);
+    background-color: #FEE042;
     transition: all 0.3s ease-in-out 0s;
 }
 
