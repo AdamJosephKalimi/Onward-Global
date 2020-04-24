@@ -11,6 +11,7 @@
 /* Utilities */
 body {
     background: white;
+    padding: 0 80px 0 80px;
 }
 
 h1, h2, h3, h4 {
