@@ -8,10 +8,24 @@
 
         <!-- Beginning of Banner -->
         <div class="banner-container">
+        
+        <div id="navbar-mobile" class="navbar-mobile">
+            <a href="javascript:void(0)" class="close" onclick="closeNav()">&times;</a>
+            <a href="#">Services</a>
+            <a href="#">Engagement</a>
+            <a href="#">Management</a>
+            <a href="#">Contact</a> 
+        </div>
+        <!-- <div id="navbar-item-logo"><img src="/images/logo.png" alt="" style="height: 30px;"></div> -->
+
+        <span id="open" class="open" onclick="openNav()">&#9776</span>
+
             <div class="page-container">
 
-                <div class="navbar">
-                    <div class="navbar-item-logo"><img src="/images/logo.png" alt="" style="height: 30px;"></div>
+                <div id="navbar-lg" class="navbar-lg">
+                    <div class="navbar-logo-lg"><img src="/images/logo.png" alt="" style="height: 30px;"></div>
+
+                    <div class="navbar-logo-mobile"><img src="/images/logo.png" alt="" style="height: 30px;"></div>
                     
                     <div class="navbar-btns-container">
                         <a href="" class="nav-bar-link">Services</a>
@@ -21,6 +35,8 @@
                     </div>
 
                 </div>
+
+                
 
                 <!-- <div class="banner"></div> -->
                 <h1 class="banner-text-title">Contact</h1>
@@ -54,5 +70,17 @@
        <!-- End of Contact Section -->
        
         <footer></footer>
+        <script>
+        
+        function openNav() {
+            document.getElementById("open").style.display = "none";
+            document.getElementById("navbar-mobile").style.width = "100%";
+        }
+        
+        function closeNav() {
+            document.getElementById("navbar-mobile").style.width = "0";
+            document.getElementById("open").style.display = "block";
+        }
+        </script>
     </body>
 </html>

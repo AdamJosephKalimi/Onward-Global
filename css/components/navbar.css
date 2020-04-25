@@ -2,7 +2,8 @@
 
 /* Navbar on large screens */
 
-.navbar {
+.navbar-lg {
+    visibility: visible;
     display: flex;
     padding-top: 30px;
     align-items: center;
@@ -45,7 +46,98 @@ a.nav-bar-link:hover:before {
     transform: scaleX(1);
 }
 
-
-
-
 /* Navbar on mobile & tablet*/
+
+.navbar-logo-mobile {
+    visibility: hidden;
+}
+
+.open {
+    float: right;
+    color: white;
+    display: block;
+    font-size: 30px;
+    cursor: pointer;
+    margin: 22px 80px 0 0;
+    visibility: hidden;
+}
+
+.navbar-mobile {
+    width: 0;
+    z-index: 1;
+    height: 100vh;
+    display: block;
+    transition: .5s;
+    position: fixed;
+    overflow-x: hidden;
+    background-color: rgba(0, 0, 0, .75);
+}
+
+.navbar-mobile a {
+    clear: right;
+    color: white;
+    display: block;
+    padding: 1em 0;
+    font-size: 24px;
+    transition: 0.3s;
+    text-align: center;
+    text-decoration: none;
+}
+
+.close {
+    float: right;
+    margin: 22px 80px 0 0;
+}
+
+.navbar-mobile a:not(:first-child):hover {
+    color: black;
+    background-color: #FEE042;
+}
+
+/* Media Queries managing which navbar is displayed */
+
+/* xs */
+
+@media(max-width: 576px) {
+    .navbar-lg {
+        visibility: hidden;
+    }
+
+    .navbar-logo-lg {
+        visibility: visible;
+    }
+}
+
+/* md */
+
+@media(max-width: 768px) {
+    .open {
+        visibility: visible;
+    }
+
+    .navbar-lg {
+        visibility: hidden;
+    }
+
+    .navbar-logo-lg {
+        visibility: visible;
+    }
+    
+}
+
+/* lg */
+
+@media(max-width: 992px) {
+    .open {
+        visibility: visible;
+    }
+
+    .navbar-lg {
+        visibility: hidden;
+    }
+
+    .navbar-logo-lg {
+        visibility: visible;
+    }
+
+}
