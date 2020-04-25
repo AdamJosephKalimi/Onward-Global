@@ -1,0 +1,20 @@
+/* Banner */
+
+.banner-container {
+    height: 500px;
+    background-image: url('/images/banner-contact.png');
+    background-size: cover;
+    margin: 0 0 0 0;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+}
+
+.banner-text-title {
+    color: #fff;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

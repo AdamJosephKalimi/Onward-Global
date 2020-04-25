@@ -2,12 +2,16 @@
 
 /* Navbar on large screens */
 
-.navbar {
+.navbar-lg {
+    visibility: visible;
     display: flex;
+    padding-top: 30px;
+    align-items: center;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
-
+    /* position: -webkit-sticky; Safari */
+    /* position: sticky;
+    top: 0px; */
 }
 
 .navbar-btns-container {
@@ -16,24 +20,24 @@
 }
 
 a.nav-bar-link {
-    position: relative;
     color: white;
-    margin: 0 12.5px 0 12.5px;
     border: #000;
+    position: relative;
     text-decoration: none;
+    margin: 0 12.5px 0 12.5px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, .25);
 }
 
 a.nav-bar-link:before {
+    left: 0;
     content: "";
-    position: absolute;
     width: 100%;
     height: 2px;
     bottom: -5px;
-    left: 0;
-    background-color: #FEE042;
     visibility: hidden;
+    position: absolute;
     transform: scaleX(0);
+    background-color: #FEE042;
     transition: all 0.3s ease-in-out 0s;
 }
 
@@ -42,7 +46,98 @@ a.nav-bar-link:hover:before {
     transform: scaleX(1);
 }
 
-
-
-
 /* Navbar on mobile & tablet*/
+
+.navbar-logo-mobile {
+    visibility: hidden;
+}
+
+.open {
+    float: right;
+    color: white;
+    display: block;
+    font-size: 30px;
+    cursor: pointer;
+    margin: 22px 80px 0 0;
+    visibility: hidden;
+}
+
+.navbar-mobile {
+    width: 0;
+    z-index: 1;
+    height: 100vh;
+    display: block;
+    transition: .5s;
+    position: fixed;
+    overflow-x: hidden;
+    background-color: rgba(0, 0, 0, .75);
+}
+
+.navbar-mobile a {
+    clear: right;
+    color: white;
+    display: block;
+    padding: 1em 0;
+    font-size: 24px;
+    transition: 0.3s;
+    text-align: center;
+    text-decoration: none;
+}
+
+.close {
+    float: right;
+    margin: 22px 80px 0 0;
+}
+
+.navbar-mobile a:not(:first-child):hover {
+    color: black;
+    background-color: #FEE042;
+}
+
+/* Media Queries managing which navbar is displayed */
+
+/* xs */
+
+@media(max-width: 576px) {
+    .navbar-lg {
+        visibility: hidden;
+    }
+
+    .navbar-logo-lg {
+        visibility: visible;
+    }
+}
+
+/* md */
+
+@media(max-width: 768px) {
+    .open {
+        visibility: visible;
+    }
+
+    .navbar-lg {
+        visibility: hidden;
+    }
+
+    .navbar-logo-lg {
+        visibility: visible;
+    }
+    
+}
+
+/* lg */
+
+@media(max-width: 992px) {
+    .open {
+        visibility: visible;
+    }
+
+    .navbar-lg {
+        visibility: hidden;
+    }
+
+    .navbar-logo-lg {
+        visibility: visible;
+    }
+
+}
