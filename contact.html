@@ -37,25 +37,23 @@
 
                 </div>
                 <h1 class="banner-text-title">Contact</h1>
-
-                <!-- <div class="banner"></div> -->
+                                
             </div>
         </div>
         <!-- End of Banner -->
 
        <!-- Beginning of Contact section -->
-
         <div class="page-container">
             <h2 class="section-title">Ready to start? Contact Jeffrey for a Free Consultation</h2>
             <div class="contact-container">
+
                     <div class="form-section-container">
                         <h3 class="contact-title">Send me a direct message</h3>
-                        <a href="/contact.html" class="btn">Click Here!</a>
+                        <a id="typeForm" href="#" class="btn">Click Here!</a>
                     </div>
 
-                    <!-- <hr id="hr"> -->
-                        <hr color="black" class="vertical-line">
-                
+                    <hr color="black" class="vertical-line">
+
                     <div class="contact-information-container">
                         <ul>
                             <li class="contact-item"><img src="/icons/phone.svg" class="contact-item-icon" alt=""> +86 156.183.24962 (China)</li>
@@ -66,23 +64,40 @@
             </div>
         </div>
        <!-- End of Contact Section -->
-       
+
+        <!-- Beginning of Footer -->
         <footer class="footer">
-            <!-- <div class="page-container"> -->
                 <p>2020 Onward Global. All Rights Reserved.</p>
-            <!-- </div> -->
         </footer>
-        <script>
+        <!-- End of Footer -->
+
+        <script src="https://embed.typeform.com/embed.js" type="text/javascript"></script>
+        <script type="text/javascript">
         
+        // Open the navigation buttons on mobile
         function openNav() {
             document.getElementById("open").style.display = "none";
             document.getElementById("navbar-mobile").style.width = "100%";
         }
         
+        // Close the navigation buttons on mobile
         function closeNav() {
             document.getElementById("navbar-mobile").style.width = "0";
             document.getElementById("open").style.display = "block";
         }
+
+        // Launching typeform onClick of btn
+        let popup = window.typeformEmbed.makePopup('https://jeffrey209862.typeform.com/to/K1YLHh', {
+          autoClose: 5000,
+          hideHeaders: true,
+          hideFooter: true,
+        });
+        
+        document.getElementById("typeForm").addEventListener("click", function() {
+            console.log("Testing");
+            popup.open()
+        })
+
         </script>
     </body>
 </html>
