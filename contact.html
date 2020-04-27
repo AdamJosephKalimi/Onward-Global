@@ -3,22 +3,23 @@
         <meta charset="UTF-8">
         <title>Onward Global</title>
         <link rel="stylesheet" href="/css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Amiri&family=Raleway:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
     </head>
     <body>
 
         <!-- Beginning of Banner -->
         <div class="banner-container">
         
-        <div id="navbar-mobile" class="navbar-mobile">
-            <a href="javascript:void(0)" class="close" onclick="closeNav()">&times;</a>
-            <a href="#">Services</a>
-            <a href="#">Engagement</a>
-            <a href="#">Management</a>
-            <a href="#">Contact</a> 
-        </div>
-        <!-- <div id="navbar-item-logo"><img src="/images/logo.png" alt="" style="height: 30px;"></div> -->
+            <div id="navbar-mobile" class="navbar-mobile">
+                <a href="javascript:void(0)" class="close" onclick="closeNav()">&times;</a>
+                <a href="#">Services</a>
+                <a href="#">Engagement</a>
+                <a href="#">Management</a>
+                <a href="#">Contact</a> 
+            </div>
 
-        <span id="open" class="open" onclick="openNav()">&#9776</span>
+            <span id="open" class="open" onclick="openNav()">&#9776</span>
 
             <div class="page-container">
 
@@ -35,41 +36,42 @@
                     </div>
 
                 </div>
-
-                
+                <h1 class="banner-text-title">Contact</h1>
 
                 <!-- <div class="banner"></div> -->
-                <h1 class="banner-text-title">Contact</h1>
             </div>
         </div>
         <!-- End of Banner -->
 
        <!-- Beginning of Contact section -->
 
-
         <div class="page-container">
             <h2 class="section-title">Ready to start? Contact Jeffrey for a Free Consultation</h2>
             <div class="contact-container">
                     <div class="form-section-container">
-                        <h3 class="">Send me a direct message</h3>
+                        <h3 class="contact-title">Send me a direct message</h3>
                         <a href="/contact.html" class="btn">Click Here!</a>
                     </div>
 
-                    <hr>
+                    <!-- <hr id="hr"> -->
+                        <hr color="black" class="vertical-line">
                 
-
                     <div class="contact-information-container">
                         <ul>
-                            <li class="contact-item">+86 156.183.24962 (China)</li>
-                            <li class="contact-item">+1 628.204.9225 (USA)</li>
-                            <li class="contact-item">Jeffrey@onwardglobal.com</li>
+                            <li class="contact-item"><img src="/icons/phone.svg" class="contact-item-icon" alt=""> +86 156.183.24962 (China)</li>
+                            <li class="contact-item"><img src="/icons/phone.svg" class="contact-item-icon" alt="">+1 628.204.9225 (USA)</li>
+                            <li  id="last-item" class="contact-item"><img src="/icons/mail.svg" class="contact-item-icon" alt="">Jeffrey@onwardglobal.com</li>
                         </ul>
                     </div>
             </div>
         </div>
        <!-- End of Contact Section -->
        
-        <footer></footer>
+        <footer class="footer">
+            <!-- <div class="page-container"> -->
+                <p>2020 Onward Global. All Rights Reserved.</p>
+            <!-- </div> -->
+        </footer>
         <script>
         
         function openNav() {

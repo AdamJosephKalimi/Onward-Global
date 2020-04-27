@@ -5,14 +5,47 @@
     text-align: center;
     margin: 50px 25px 30px 25px;
 }
+
+/* Body */
+
+.contact-title {
+    color: #1571A8;
+    font-weight: 500;
+    margin-bottom: 30px;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.btn {
+    margin: 30px 0 0 0;
+}
+
+.contact-item {
+    color: #1571A8;
+    font-weight: 500;
+    padding-bottom: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.contact-item-icon {
+    width: 30px;
+    height: 30px;
+    fill: #1571A8;
+    padding: 0 10px 0 0;
+}
+
+
 /* CSS for Contact.html */
 
 .contact-container {
     display: grid;
-    margin: 0 80 0 80;
-    padding: 50 110 50 110;
+    margin: 0 0 0 0;
+    padding: 50 40 50 40;
     background-color: #FAFAFA;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
 }
 
 .form-section-container {
@@ -29,24 +62,150 @@
     justify-content: center;
 }
 
+hr {
+    width: .5px;
+    size: 174;
+    color: #000;
+    opacity: .2;
+    visibility: hidden;
+}
+
 ul {
     list-style: none;
+    padding: 0;
+}
+
+#last-item {
+    padding-bottom: 0;
 }
 
 /* Responsiveness */
 
-/* xs */
+/* sm */
+
 @media(max-width: 576px) {
+
+}
+
+/* md */
+
+@media(max-width: 768px) {
+
+    
+}
+
+/* 1169 is the MIN breakpoint for contact-title to work well*/
+
+/* lg */
+
+@media(min-width: 1048px) {
+
+    .btn {
+        margin-top:30px;
+    }
+
+    .contact-container {
+        display: grid;
+        margin: 0 0 0 0;
+        padding: 50 50 50 50;
+        background-color: #FAFAFA;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .contact-item {
+        font-size: 22px;
+        padding-bottom: 60px;
+    }
+
+    hr {
+        visibility: visible;
+    }
+}
+
+
+
+@media(min-width: 1169px) {
+
+    .contact-container {
+        display: grid;
+        margin: 0 0 0 0;
+        padding: 50 110 50 110;
+        background-color: #FAFAFA;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+}
+
+/* @media(max-width: 576px) {
     .contact-container{
         grid-template-columns: 1fr;
         padding: 50 40 50 40;
     }
+
+    ul {
+        padding-left: 0px;
+    }
+
+    hr {
+        display: none;
+    }
+
+    .contact-title {
+        padding-bottom: 30px;
+    }
+
+    .btn {
+        margin-bottom: 20px;
+        margin-top: 0px;
+        color: red;
+    }
+
+    .contact-item {
+        font-size: 18px;
+    }
+
 }
 
-/* md */
 @media(max-width: 768px) {
-    .contact-container{
+
+    .contact-container {
+        display: grid;
+        margin: 0 0 0 0;
+        padding: 50 110 50 110;
+        background-color: #FAFAFA;
         grid-template-columns: 1fr;
     }
+
+    hr {
+        display: none;
+    }
+
 }
 
+@media(max-width: 992px) and (max-width: 1139px) {
+
+    .contact-container {
+        display: grid;
+        margin: 0 0 0 0;
+        padding: 50 110 50 110;
+        background-color: #FAFAFA;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    hr {
+        display: none;
+    }
+
+}
+
+@media(min-width: 1140px) {
+    
+    .contact-container {
+        display: grid;
+        margin: 0 0 0 0;
+        padding: 50 110 50 110;
+        background-color: #FAFAFA;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+} */
