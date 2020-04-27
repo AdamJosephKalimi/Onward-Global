@@ -2,19 +2,24 @@
 
 .banner-container {
     height: 500px;
-    background-image: url('/images/banner-contact.png');
-    background-size: cover;
     margin: 0 0 0 0;
-    background-attachment: fixed;
+    background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     background-repeat: no-repeat;
-    /* background-size: cover; */
+    background-image: url('/images/banner-contact.png');
+    overflow-x: visible; 
+
 }
 
 .banner-text-title {
-    color: #fff;
-    position: absolute;
     top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin: 0;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
 }
+

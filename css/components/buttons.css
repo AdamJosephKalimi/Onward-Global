@@ -1,0 +1,9 @@
+/* Buttons */
+
+.btn {
+    padding: 12px 75px 12px 75px;
+    background-color: #1571A8;
+    color: white;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+}
