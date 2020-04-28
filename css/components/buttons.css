@@ -39,7 +39,7 @@
 
 /* lg */
 
-@media(min-width: 768px) {
+@media(min-width: 800px) {
 
     .btn-section-container-engagement {        
         flex-direction: row;
@@ -48,12 +48,5 @@
     .title-and-button-container {
         padding: 0 20% 0 20%;
     }
-
-}
-
-
-@media(min-width: 1169px) {
-
-
 
 }

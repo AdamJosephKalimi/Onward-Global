@@ -1,9 +1,9 @@
 /* Engagement Cards */
 
 .card-container {
-    background-color: #FAFAFA;
     margin: 50px 0 0 0;
     padding: 50px 0 50px 0;
+    background-color: #FAFAFA;
 }
 
 .card {
@@ -18,49 +18,82 @@
     box-shadow: 0px 1px 15px rgba(0, 0, 0, .05);
 }
 
-.card-icon-container {
-
-}
-
 .card-icon {
     width: 64px;
     height: 64px;
 }
 
-.card-text-container {
-
-}
-
 .card-title {
-    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     color: #3B4956;
-    padding: 30px 0 30px 0;
     text-align: center;
+    padding: 30px 0 30px 0;
+    font-family: 'Raleway', sans-serif;
 
 }
 
 .card-content {
-    font-family: 'Amiri', serif;
+    opacity: 0.7;
     line-height: 100%;
     text-align: center;
-    opacity: 0.7;
+    font-family: 'Amiri', serif;
 }
 
 /* Responsiveness */
 
-/* 1169 is the MIN breakpoint for contact-title to work well*/
-
 /* lg */
 
-@media(min-width: 1048px) {
-
-
+@media(min-width: 800px) {
+    .card {
+        display: flex;
+        border-radius: 5px;
+        flex-direction: row;
+        padding: 0 50px 0 0;
+        align-items: center;
+    }
+    
+    .card-icon {
+        width: 64px;
+        height: 64px;
+        margin: 50px;
+    }
+    
+    .card-text-container {
+        padding: 0 6px 0 0;
+    
+    }
+    
+    .card-title {
+        font-size: 20px;
+        text-align: left;
+        color: #3B4956;
+        font-weight: 700;
+        padding: 0 0 15px 0;
+        font-family: 'Raleway', sans-serif;
+    
+    }
+    
+    .card-content {
+        opacity: 0.7;
+        text-align: left;
+        line-height: 100%;
+        font-family: 'Amiri', serif;
+    }
 }
 
+/* XL */
 
-@media(min-width: 1169px) {
+/* width: 1152px is the page width the figma was designed with. This XL breakpoint is to adjust for the extra space */
 
+@media(min-width: 1152px) {
 
+    .card {
+        padding: 0 6% 0 6%;
+    }
+
+    .card-text-container {
+        padding: 0 60px 0 0;
+    
+    }
 
 }
