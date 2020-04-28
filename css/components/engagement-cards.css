@@ -1,0 +1,51 @@
+/* Engagement Cards */
+
+.card-container {
+    background-color: #FAFAFA;
+    margin: 0 0 0 0;
+}
+
+.card {
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 1px 15px rgba(0, 0, 0, .05);
+}
+
+.card-icon-container {
+
+}
+
+.card-icon {
+    width: 64px;
+    height: 64px;
+}
+
+.card-text-container {
+
+}
+
+.card-title {
+
+}
+
+.card-content {
+
+}
+
+/* Responsiveness */
+
+/* 1169 is the MIN breakpoint for contact-title to work well*/
+
+/* lg */
+
+@media(min-width: 1048px) {
+
+
+}
+
+
+@media(min-width: 1169px) {
+
+
+
+}

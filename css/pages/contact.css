@@ -83,16 +83,16 @@ ul {
 
 /* sm */
 
-@media(max-width: 576px) {
+/* @media(max-width: 576px) {
 
-}
+} */
 
 /* md */
 
-@media(max-width: 768px) {
+/* @media(max-width: 768px) {
 
     
-}
+} */
 
 /* 1169 is the MIN breakpoint for contact-title to work well*/
 
@@ -123,7 +123,6 @@ ul {
 }
 
 
-
 @media(min-width: 1169px) {
 
     .contact-container {
@@ -136,76 +135,4 @@ ul {
 
 }
 
-/* @media(max-width: 576px) {
-    .contact-container{
-        grid-template-columns: 1fr;
-        padding: 50 40 50 40;
-    }
 
-    ul {
-        padding-left: 0px;
-    }
-
-    hr {
-        display: none;
-    }
-
-    .contact-title {
-        padding-bottom: 30px;
-    }
-
-    .btn {
-        margin-bottom: 20px;
-        margin-top: 0px;
-        color: red;
-    }
-
-    .contact-item {
-        font-size: 18px;
-    }
-
-}
-
-@media(max-width: 768px) {
-
-    .contact-container {
-        display: grid;
-        margin: 0 0 0 0;
-        padding: 50 110 50 110;
-        background-color: #FAFAFA;
-        grid-template-columns: 1fr;
-    }
-
-    hr {
-        display: none;
-    }
-
-}
-
-@media(max-width: 992px) and (max-width: 1139px) {
-
-    .contact-container {
-        display: grid;
-        margin: 0 0 0 0;
-        padding: 50 110 50 110;
-        background-color: #FAFAFA;
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-
-    hr {
-        display: none;
-    }
-
-}
-
-@media(min-width: 1140px) {
-    
-    .contact-container {
-        display: grid;
-        margin: 0 0 0 0;
-        padding: 50 110 50 110;
-        background-color: #FAFAFA;
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-
-} */
