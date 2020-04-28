@@ -8,6 +8,7 @@
 @import url("/css/components/engagement-cards.css");
 
 /* Pages */
+@import url("pages/index.css");
 @import url("pages/contact.css");
 @import url("pages/engagement.css");
 
