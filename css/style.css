@@ -30,6 +30,7 @@ html,body
 
 h1, h2, h3, h4 {
     font-family: sans-serif;
+    margin: 0;
 }
 
 a {
@@ -39,11 +40,20 @@ a {
 .page-container {
     padding: 0 80px 0 80px;
     align-items: center;
+    align-content: center;
+    text-align: center;
 }
 
 .section-title {
     color: #3B4956;
     text-decoration: underline;
     font-family: 'Raleway', sans-serif;
+}
+
+.sub-banner-title {
+    color: #3B4956;
+    text-decoration: underline;
+    font-family: 'Raleway', sans-serif;
+    margin: 50px 0 30px 0;
 }
 
