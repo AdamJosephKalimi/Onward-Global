@@ -8,12 +8,13 @@
     padding: 12px 0 12px 0;
     background-color: #1571A8;
     font-family: 'Raleway', sans-serif;
+    text-align: center;
 }
 
 .btn-title {
     color: #3B4956;
     /* margin: 20px 0 20px 0; */
-    text-decoration: underline;
+    /* text-decoration: underline; */
     font-family: 'Raleway', sans-serif;
 }
 
