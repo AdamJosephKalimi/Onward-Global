@@ -1,0 +1,65 @@
+/* Collage */
+
+.collage-and-background-container {
+    background-color: #FAFAFA;
+    padding: 30px 28px 30px 28px;
+    text-align: center;
+    display: inline-block
+}
+
+.collage-container {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.first-third-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.image-1-1 {
+    width: 325px;
+    height: 163px;
+}
+
+.image-1-2 {
+    width: 325px;
+    height: 162px;
+}
+
+.image-2 {
+    width: 325px;
+    height: 274px;
+}
+
+.image-3 {
+    width: 325px;
+    height: 251.02px;
+}
+
+@media (min-width: 800px) {
+    
+    .image-1-1 {
+        width: 251.02px;
+        height: 125.92px;
+    }
+    
+    .image-1-2 {
+        width: 251.02px;
+        height: 125.09px;
+    }
+    
+    .image-2 {
+        width: 298.24px;
+        height: 251.02px;
+    }
+    
+    .image-3 {
+        width: 324.75px;
+        height: 251.02px;
+    }
+}

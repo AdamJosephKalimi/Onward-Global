@@ -64,7 +64,6 @@
 
 hr {
     width: .5px;
-    /* height: 150px; */
     color: #000;
     opacity: .2;
     visibility: hidden;
@@ -80,23 +79,6 @@ ul {
 }
 
 /* Responsiveness */
-
-/* sm */
-
-/* @media(max-width: 576px) {
-
-} */
-
-/* md */
-
-/* @media(max-width: 768px) {
-
-    
-} */
-
-/* 1169 is the MIN breakpoint for contact-title to work well*/
-
-/* lg */
 
 @media(min-width: 1048px) {
 
@@ -121,7 +103,6 @@ ul {
         visibility: visible;
     }
 }
-
 
 @media(min-width: 1169px) {
 

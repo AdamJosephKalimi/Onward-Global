@@ -44,7 +44,6 @@ hr {
     background-color: #FAFAFA;
 }
 
-
 /* 
    Footer fixes
 
@@ -82,10 +81,6 @@ hr {
         flex-direction: row;
         justify-content: space-around;
         padding: 0 10% 0 10%; 
-    }
-
-    hr {
-        /* margin: auto; */
     }
 
 }

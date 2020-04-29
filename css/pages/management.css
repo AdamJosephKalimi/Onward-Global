@@ -1,0 +1,57 @@
+/* Management */
+
+.management-paragraph {
+    opacity: .7;
+    line-height: 192%;
+    font-family: 'Amiri', serif;
+    text-align: center;
+    font-size: 18px;
+}
+
+.paragraph-and-image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-photo {
+    width: 292px;
+    margin: auto;
+}
+
+.image-container {
+    width: 292px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.image-caption {
+    font-family: 'Amiri', serif;
+    font-style: italic;
+    font-size: 20px;
+    opacity: .7;
+}
+
+
+
+
+@media (min-width: 934px) {
+    .management-paragraph {
+        font-size: 20px;
+    }
+    
+    .profile-photo {
+        width: 292px;
+    }
+    
+    .image-container {
+        width: 292px;
+        float: right;
+        margin-left: 100px;
+    }
+    
+}
+
