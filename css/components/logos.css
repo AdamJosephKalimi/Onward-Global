@@ -40,3 +40,8 @@
     justify-content: space-around;
 
 }
+
+/* This is 30 px in addition to .logo-item-container-bottom having 20px margin on bottom*/
+.homepage-supply-chains-serviced-container {
+    margin-bottom: 30px;
+}

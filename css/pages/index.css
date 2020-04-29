@@ -5,3 +5,87 @@
     padding: 50px 0 50px 0;
     background-color: #FAFAFA;
 }
+
+hr {
+    size: 174;
+    width: .5px;
+    color: #000;
+    opacity: .2;
+    visibility: hidden;
+}
+
+.homepage-services-section-title {
+    color: #3B4956;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 30px;
+    text-decoration: underline;
+}
+
+.service-items-sub-container {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.service-item {
+    color: #1571A8;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Amiri', serif;
+}
+
+.sps-title {
+    margin-bottom: 30px;
+}
+
+.btn-section-container-homepage {
+    padding: 50px 0 50px 0;
+    background-color: #FAFAFA;
+}
+
+
+/* 
+   Footer fixes
+
+   Not permanent fixes - included this to remove the margin which is 
+   being used to properly space the sections on contact.
+ */
+
+.index-footer-homepage {
+    margin-top: 0;
+}
+
+.title-and-button-container-homepage {
+    margin-top: 0;
+}
+
+/* End of Footer fixes */
+
+/* 935 is the MIN breakpoint for Services Container to respond well*/
+
+@media(max-width: 934px) {
+    hr {
+        margin: 0;
+    }
+}
+
+
+@media(min-width: 935px) {
+
+    .service-items-sub-container {
+        width: 373px;
+    }
+
+    .service-items-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 0 10% 0 10%; 
+    }
+
+    hr {
+        /* margin: auto; */
+    }
+
+}

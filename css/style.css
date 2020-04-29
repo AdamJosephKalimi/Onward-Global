@@ -1,6 +1,7 @@
 /* Fonts */
 
 /* Components */
+@import url("/css/components/logos.css");
 @import url("/css/components/banner.css");
 @import url("/css/components/footer.css");
 @import url("/css/components/navbar.css");
