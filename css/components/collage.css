@@ -47,12 +47,6 @@
     height: 251.02px;
 }
 
-/* @media (max-width: 576px) {
-    .page-container-management-collage {
-        padding: 0 5px 0 5px !important;
-    }
-} */
-
 @media (min-width: 800px) {
 
     .collage-container {
