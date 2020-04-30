@@ -60,10 +60,12 @@ a.nav-bar-link:hover:before {
 
 .logo-text-1 {
     margin: 0 5px 0 0;
+    text-shadow: 0px 4px 15px rgb(0, 0, 0, .7);
 }
 
 .logo-text-2 {
     margin: 0 0 0 5px;
+    text-shadow: 0px 4px 15px rgb(0, 0, 0, .7);
 }
 
 .og-triangle-logo {
@@ -126,7 +128,7 @@ a.nav-bar-link:hover:before {
             Row to set it to the left
         */
         flex-direction: row;
-        margin-bottom: 100px;
+        margin-bottom: 130px;
     }
 
     .onward-global-logo-container {
