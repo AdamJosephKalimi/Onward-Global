@@ -47,6 +47,30 @@ a.nav-bar-link:hover:before {
 
 /* Navbar on mobile & tablet*/
 
+.onward-global-logo-container {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+}
+
+.logo-text-1 {
+    margin: 0 5px 0 0;
+}
+
+.logo-text-2 {
+    margin: 0 0 0 5px;
+}
+
+.og-triangle-logo {
+    width: 25px;
+    height: 25px;
+}
+
 .open {
     float: right;
     color: white;
@@ -97,11 +121,22 @@ a.nav-bar-link:hover:before {
 @media(max-width: 576px) {
     .navbar-lg {
         visibility: hidden;
+        flex-direction: column;
+        margin-bottom: 100px;
     }
 
     .onward-global-logo-container {
         margin-top: 4px;
         visibility: visible;
+        justify-content: center;
+    }
+
+    .open {
+        margin: 22px 20px -10px 0;
+    }
+
+    .navbar-btns-container {
+        flex-direction: column;
     }
 }
 
