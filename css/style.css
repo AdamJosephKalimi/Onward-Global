@@ -1,13 +1,13 @@
 /* Fonts */
 
 /* Components */
-@import url("css/components/logos.css");
-@import url("css/components/banner.css");
-@import url("css/components/footer.css");
-@import url("css/components/navbar.css");
-@import url("css/components/buttons.css");
-@import url("css/components/collage.css");
-@import url("css/components/engagement-cards.css");
+@import url("components/logos.css");
+@import url("components/banner.css");
+@import url("components/footer.css");
+@import url("components/navbar.css");
+@import url("components/buttons.css");
+@import url("components/collage.css");
+@import url("components/engagement-cards.css");
 
 /* Pages */
 @import url("pages/index.css");
