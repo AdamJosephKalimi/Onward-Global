@@ -63,6 +63,12 @@ hr {
 
 /* 935 is the MIN breakpoint for Services Container to respond well*/
 
+@media (max-width: 576px) {
+    .service-item {
+        font-size: 21px;
+    }
+}
+
 @media(max-width: 1012px) {
     hr {
         margin: 0;
