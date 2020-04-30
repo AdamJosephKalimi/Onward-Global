@@ -121,14 +121,17 @@ a.nav-bar-link:hover:before {
 @media(max-width: 576px) {
     .navbar-lg {
         visibility: hidden;
-        flex-direction: column;
+        /* 
+            Column to center the logo (minus 10px right due to hamburger)
+            Row to set it to the left
+        */
+        flex-direction: row;
         margin-bottom: 100px;
     }
 
     .onward-global-logo-container {
         margin-top: 4px;
         visibility: visible;
-        justify-content: center;
     }
 
     .open {
@@ -136,7 +139,7 @@ a.nav-bar-link:hover:before {
     }
 
     .navbar-btns-container {
-        flex-direction: column;
+        flex-direction: row;
     }
 }
 
