@@ -1,15 +1,19 @@
 /* Fonts */
 
 /* Components */
+@import url("/css/components/logos.css");
 @import url("/css/components/banner.css");
 @import url("/css/components/footer.css");
 @import url("/css/components/navbar.css");
 @import url("/css/components/buttons.css");
+@import url("/css/components/collage.css");
 @import url("/css/components/engagement-cards.css");
 
 /* Pages */
+@import url("pages/index.css");
 @import url("pages/contact.css");
 @import url("pages/engagement.css");
+@import url("pages/management.css");
 
 /* Utilities */
 
@@ -22,11 +26,6 @@ html,body
     overflow-x: hidden; 
     background: white;
 }
-
-/* body {
-    margin: 0 0 0 0;
-    background: white;
-} */
 
 h1, h2, h3, h4 {
     font-family: sans-serif;

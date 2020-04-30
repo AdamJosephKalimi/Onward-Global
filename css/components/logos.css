@@ -1,0 +1,47 @@
+/* Logo & Logo container */
+
+.logo-item-container {
+    text-align: center;
+}
+
+.logo-item-wide {
+    width: 140px;
+    margin: 0 10px 0 10px;
+}
+
+.logo-item-square {
+    width: 100px;
+    margin: 0 10px 0 10px;
+}
+
+.logo-target {
+    width: 70px;
+}
+
+.logo-item-container-bottom {
+    width: 140px;
+    margin: 20px 0 20px 0;
+}
+
+.logo-container-top {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.logo-container-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+    padding: 0 15px 0 15px;
+    justify-content: space-around;
+
+}
+
+/* This is 30 px in addition to .logo-item-container-bottom having 20px margin on bottom*/
+.homepage-supply-chains-serviced-container {
+    margin-bottom: 30px;
+}
