@@ -13,8 +13,7 @@
 
 .btn-title {
     color: #3B4956;
-    /* margin: 20px 0 20px 0; */
-    /* text-decoration: underline; */
+    text-decoration: underline;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -28,17 +27,12 @@
 .title-and-button-container {
     display: flex;
     align-items: center;
-    /* padding: 0 20% 0 20%; */
     flex-direction: column;
     justify-content: space-between;
     margin: 50px 0 0 0;
 }
 
 /* Responsiveness */
-
-/* 1169 is the MIN breakpoint for contact-title to work well*/
-
-/* lg */
 
 @media(min-width: 800px) {
 
