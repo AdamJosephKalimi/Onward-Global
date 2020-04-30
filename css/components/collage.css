@@ -3,7 +3,7 @@
 
 /* Added to page container for the collage and it's background to center properly */
 .page-container-management-collage {
-    padding: 0 40px 0 40px !important;
+    padding: 0 5px 0 5px !important;
 }
 
 .collage-and-background-container {
@@ -46,6 +46,12 @@
     width: 325px;
     height: 251.02px;
 }
+
+/* @media (max-width: 576px) {
+    .page-container-management-collage {
+        padding: 0 5px 0 5px !important;
+    }
+} */
 
 @media (min-width: 800px) {
 

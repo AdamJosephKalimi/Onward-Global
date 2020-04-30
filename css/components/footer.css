@@ -14,3 +14,9 @@
     font-family: 'Amiri', serif;
     
 }
+
+@media (max-width: 576px) {
+    .footer {
+        padding: 0 20px 0 20px;
+    }
+}
