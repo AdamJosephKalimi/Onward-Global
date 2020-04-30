@@ -1,5 +1,30 @@
 /* Logo & Logo container */
 
+.onward-global-logo-container {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+}
+
+.logo-text-1 {
+    margin: 0 5px 0 0;
+}
+
+.logo-text-2 {
+    margin: 0 0 0 5px;
+}
+
+.og-triangle-logo {
+    width: 25px;
+    height: 25px;
+}
+
+
 .logo-item-container {
     text-align: center;
 }
