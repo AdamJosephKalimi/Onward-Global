@@ -1,5 +1,11 @@
 /* Collage */
 
+
+/* Added to page container for the collage and it's background to center properly */
+.page-container-management-collage {
+    padding: 0 40px 0 40px !important;
+}
+
 .collage-and-background-container {
     background-color: #FAFAFA;
     padding: 30px 28px 30px 28px;

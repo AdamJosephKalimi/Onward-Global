@@ -47,10 +47,6 @@ a.nav-bar-link:hover:before {
 
 /* Navbar on mobile & tablet*/
 
-.navbar-logo-mobile {
-    visibility: hidden;
-}
-
 .open {
     float: right;
     color: white;
@@ -103,7 +99,8 @@ a.nav-bar-link:hover:before {
         visibility: hidden;
     }
 
-    .navbar-logo-lg {
+    .onward-global-logo-container {
+        margin-top: 4px;
         visibility: visible;
     }
 }
@@ -119,7 +116,7 @@ a.nav-bar-link:hover:before {
         visibility: hidden;
     }
 
-    .navbar-logo-lg {
+    .onward-global-logo-container {
         visibility: visible;
     }
     
@@ -136,7 +133,7 @@ a.nav-bar-link:hover:before {
         visibility: hidden;
     }
 
-    .navbar-logo-lg {
+    .onward-global-logo-container {
         visibility: visible;
     }
 

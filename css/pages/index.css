@@ -63,17 +63,18 @@ hr {
 
 /* 935 is the MIN breakpoint for Services Container to respond well*/
 
-@media(max-width: 934px) {
+@media(max-width: 1012px) {
     hr {
         margin: 0;
     }
+
 }
 
 
-@media(min-width: 935px) {
+@media(min-width: 1012px) {
 
     .service-items-sub-container {
-        width: 373px;
+        width: 404px;
     }
 
     .service-items-container {
@@ -82,5 +83,6 @@ hr {
         justify-content: space-around;
         padding: 0 10% 0 10%; 
     }
+
 
 }
