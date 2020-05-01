@@ -10,7 +10,7 @@
     display: flex;
     border-radius: 5px;
     align-items: center;
-    margin: 30px 0 30px 0;
+    margin: 20px 0 20px 0;
     flex-direction: column;
     background-color: #FFFFFF;
     padding: 60px 50px 60px 50px;
@@ -53,7 +53,7 @@
     .card-icon {
         width: 64px;
         height: 64px;
-        margin: 50px;
+        margin: 50px 50px 50px 50px;    
     }
     
     .card-text-container {
@@ -84,6 +84,10 @@
 /* width: 1152px is the page width the figma was designed with. This XL breakpoint is to adjust for the extra space */
 
 @media(min-width: 1152px) {
+
+    .card-icon {
+        margin: 30px 50px 30px 50px;
+    }
 
     .card {
         padding: 0 6% 0 6%;
