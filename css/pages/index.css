@@ -19,7 +19,6 @@ hr {
     text-align: center;
     font-family: 'Raleway', sans-serif;
     margin-bottom: 30px;
-    text-decoration: underline;
 }
 
 .service-items-sub-container {
@@ -29,7 +28,7 @@ hr {
 }
 
 .service-item {
-    color: #1571A8;
+    color: rgba(0, 0, 0, .7);
     font-size: 24px;
     font-weight: 700;
     font-family: 'Amiri', serif;

@@ -13,7 +13,6 @@
 
 .btn-title {
     color: #3B4956;
-    text-decoration: underline;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -38,6 +37,7 @@
 
     .btn-section-container-engagement {        
         flex-direction: row;
+        padding: 0 30% 0 30%;
     }
     
     .title-and-button-container {

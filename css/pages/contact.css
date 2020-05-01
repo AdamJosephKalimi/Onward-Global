@@ -9,10 +9,11 @@
 /* Body */
 
 .contact-title {
-    color: #1571A8;
+    margin: 0;
+    font-size: 24px;
     font-weight: 500;
     margin-bottom: 30px;
-    margin: 0;
+    color: rgba(0, 0, 0, .7);
     font-family: 'Raleway', sans-serif;
 }
 
@@ -21,20 +22,20 @@
 }
 
 .contact-item {
-    color: #1571A8;
-    font-weight: 500;
-    padding-bottom: 30px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 18px;
     display: flex;
+    font-size: 18px;
+    font-weight: 500;
     align-items: center;
+    padding-bottom: 30px;
+    color: rgba(0, 0, 0, .7);
+    font-family: 'Raleway', sans-serif;
 }
 
 .contact-item-icon {
     width: 30px;
     height: 30px;
-    fill: #1571A8;
     padding: 0 10px 0 0;
+    color: rgba(0, 0, 0, .7);
 }
 
 

@@ -1,12 +1,5 @@
 /* Engagement */
 
-.content-about {
-    opacity: .7;
-    line-height: 192%;
-    font-family: 'Amiri', serif;
-}
-
-
 .jumping-in-container {
     text-align: center;
 }
@@ -14,7 +7,6 @@
 .jumping-in-title {
     margin: 0;
     color: #3B4956;
-    text-decoration: underline;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -23,3 +15,5 @@
     font-family: 'Amiri', serif;
     margin-top: 12px;
 }
+
+/* Btn section styling is in buttons.css */
