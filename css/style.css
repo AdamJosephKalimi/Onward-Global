@@ -62,6 +62,7 @@ a {
     line-height: 192%;
     font-family: 'Amiri', serif;
     font-size: 18px;
+    text-align: left;
 }
 
 @media (max-width: 576px) {
