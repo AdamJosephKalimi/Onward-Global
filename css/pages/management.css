@@ -34,6 +34,14 @@
     opacity: .7;
 }
 
+/* 
+   This is done so the spacing below this paragraph and above the contact button container is the same
+   as the space between the btn container and the collage
+*/
+#paragraph-5 {
+    margin-bottom: 0;
+}
+
 
 @media (min-width: 934px) {
 
