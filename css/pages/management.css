@@ -5,6 +5,13 @@
     flex-direction: column;
     align-items: center;
 }
+
+.bottom-paragraphs-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .management-paragraph {
     opacity: .7;
     line-height: 192%;
@@ -62,6 +69,10 @@
     .image-container {
         float: right;
         margin-left: 100px;
+    }
+
+    .bottom-paragraphs-container {
+        display: block;
     }
     
 }
