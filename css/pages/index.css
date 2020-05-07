@@ -21,6 +21,10 @@ hr {
     margin-bottom: 30px;
 }
 
+/* .homepage-about {
+    text-align: left !important;
+} */
+
 .service-items-sub-container {
     display: flex;
     text-align: center;
