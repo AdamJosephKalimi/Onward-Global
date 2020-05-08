@@ -100,3 +100,10 @@
     }
 
 }
+
+/* Media queries for IE */
+
+@media (min-width: 800px) and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+
+
+}

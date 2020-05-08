@@ -45,3 +45,15 @@
     }
 
 }
+
+@media (min-width: 800px) and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    .btn-section-container-engagement {        
+        flex-direction: row;
+        padding: 0;
+    }
+
+    .title-and-button-container {
+        padding: 0;
+    }
+
+}
