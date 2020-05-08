@@ -84,7 +84,6 @@ hr {
 
 }
 
-
 @media(min-width: 1012px) {
 
     .service-items-sub-container {
@@ -99,4 +98,10 @@ hr {
     }
 
 
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    .IE-footer-text {
+        color: red;
+    }
 }
