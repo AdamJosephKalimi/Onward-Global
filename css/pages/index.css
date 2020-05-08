@@ -6,6 +6,11 @@
     background-color: #FAFAFA;
 }
 
+.about-link {
+    color: #000;
+    font-weight: bold;
+}
+
 hr {
     size: 174;
     width: .5px;
@@ -20,6 +25,10 @@ hr {
     font-family: 'Raleway', sans-serif;
     margin-bottom: 30px;
 }
+
+/* .homepage-about {
+    text-align: left !important;
+} */
 
 .service-items-sub-container {
     display: flex;
