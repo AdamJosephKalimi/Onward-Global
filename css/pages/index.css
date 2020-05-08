@@ -6,6 +6,11 @@
     background-color: #FAFAFA;
 }
 
+.about-link {
+    color: #000;
+    font-weight: bold;
+}
+
 hr {
     size: 174;
     width: .5px;
