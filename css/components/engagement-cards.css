@@ -58,7 +58,6 @@
     
     .card-text-container {
         padding: 0 6px 0 0;
-    
     }
     
     .card-title {
@@ -104,6 +103,25 @@
 /* Media queries for IE */
 
 @media (min-width: 800px) and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    .card-text-container {
+        padding: 10px 6% 10px 6%;
+    }
 
+    .card {
+        padding: 0 6% 0 6%;
+    }
 
+    .card-icon {
+        margin: 0;
+    }
+}
+
+@media (max-width: 800px) and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    .card-text-container {
+        width: 100%;
+    }
+ 
+    .card-icon {
+        margin: 0;
+    }
 }
