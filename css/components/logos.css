@@ -18,7 +18,7 @@
     width: 70px;
 }
 
-.logo-item-container-bottom {
+.logo-item-container-middle {
     width: 140px;
     margin: 20px 0 20px 0;
 }
@@ -31,7 +31,7 @@
     justify-content: space-around;
 }
 
-.logo-container-bottom {
+.logo-container-middle {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
