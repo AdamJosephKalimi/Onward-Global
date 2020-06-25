@@ -15,9 +15,6 @@
 @import url("pages/engagement.css");
 @import url("pages/management.css");
 
-/* IE */
-@import url("all-ie-only.css");
-
 /* Utilities */
 
 html,body

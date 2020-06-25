@@ -58,7 +58,6 @@
     
     .card-text-container {
         padding: 0 6px 0 0;
-    
     }
     
     .card-title {
@@ -99,4 +98,45 @@
     
     }
 
+}
+
+/* 
+   Media queries for IE addressing full screen desktop version of engagement-cards between 1152.
+   This is included so the all media query below does not supersede the 1152 media query above
+*/
+@media (min-width: 1152px) and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    .card {
+        height: 120px;
+    }
+}
+
+
+/* Media queries for IE addressing full screen desktop version of engagement-cards between 1152 - 800 */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    .card-text-container {
+        padding: 10px 6% 10px 6%;
+    }
+
+    .card {
+        padding: 0 6% 0 6%;
+    }
+
+    .card-icon {
+        margin: 0;
+    }
+}
+
+/* Media queries for IE addressing square version of engagement-cards */
+@media (max-width: 800px) and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    .card-text-container {
+        width: 100%;
+    }
+
+    .card {
+        padding: 60px 50px 60px 50px;
+    }
+ 
+    .card-icon {
+        margin: 0;
+    }
 }
